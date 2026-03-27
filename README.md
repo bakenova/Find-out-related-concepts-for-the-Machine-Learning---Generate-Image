@@ -7,23 +7,34 @@ This project is a simple, introductory implementation of text analysis technique
 **Purpose**
 The main goal of this project is to:
 	•	Understand how raw text data can be collected from the web
+	
 	•	Learn basic text cleaning techniques
+	
 	•	Explore keyword extraction using simple algorithms
+	
 	•	Practice visualizing textual data
 
 **Overview**
 The script fetches an article about Machine Learning from the IBM website and performs the following steps:
 	1	Scrapes HTML content from the web page
+	
 	2	Removes unnecessary elements (navigation, sidebars, metadata)
+	
 	3	Extracts readable text
+	
 	4	Identifies key phrases using RAKE (Rapid Automatic Keyword Extraction)
+	
 	5	Visualizes results using charts and word clouds
 
 **What was used?**
 	•	requests — HTTP requests
+	
 	•	BeautifulSoup — HTML parsing
+	
 	•	nlp_rake — keyword extraction
+	
 	•	matplotlib — visualization
+	
 	•	wordcloud — text visualization
 
 **How It Works**
