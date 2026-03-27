@@ -5,6 +5,7 @@ This project is a simple, introductory implementation of text analysis technique
 ⚠️ Note: This is a primitive (basic-level) project intended for educational purposes.
 
 **Purpose**
+
 The main goal of this project is to:
 	•	Understand how raw text data can be collected from the web
 	
@@ -15,6 +16,7 @@ The main goal of this project is to:
 	•	Practice visualizing textual data
 
 **Overview**
+
 The script fetches an article about Machine Learning from the IBM website and performs the following steps:
 	1	Scrapes HTML content from the web page
 	
@@ -27,6 +29,7 @@ The script fetches an article about Machine Learning from the IBM website and pe
 	5	Visualizes results using charts and word clouds
 
 **What was used?**
+
 	•	requests — HTTP requests
 	
 	•	BeautifulSoup — HTML parsing
@@ -56,6 +59,7 @@ The extracted keywords are visualized using:
 	•	Word clouds
 
 **Results**
+
 - Keyword Frequency Bar Chart:
 <img width="1989" height="690" alt="word_scores_barchart" src="https://github.com/user-attachments/assets/8191b5e0-0d37-4b2d-8ba8-5fc68e5bc4aa" />
 
