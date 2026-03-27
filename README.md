@@ -30,12 +30,15 @@ The script fetches an article about Machine Learning from the IBM website and pe
 
 _1. Data Collection_
 The script downloads HTML content from the IBM Machine Learning page.
+
 _2. Data Cleaning_
 Basic cleaning is applied by removing irrelevant HTML blocks.
 This step is simplified and does not cover advanced text preprocessing techniques.
+
 _3. Keyword Extraction_
 RAKE is used to extract keywords based on simple rules like frequency and word length.
 This is a basic NLP approach and does not use machine learning models.
+
 _4. Visualization_
 The extracted keywords are visualized using:
 	•	Bar charts
@@ -43,10 +46,10 @@ The extracted keywords are visualized using:
 
 **Results**
 - Keyword Frequency Bar Chart:
-  <img width="1989" height="690" alt="word_scores_barchart" src="https://github.com/user-attachments/assets/8191b5e0-0d37-4b2d-8ba8-5fc68e5bc4aa" />
+<img width="1989" height="690" alt="word_scores_barchart" src="https://github.com/user-attachments/assets/8191b5e0-0d37-4b2d-8ba8-5fc68e5bc4aa" />
 
 - Word Cloud (From Keywords):
-  <img width="636" height="482" alt="key_wordcloud" src="https://github.com/user-attachments/assets/3dfc2c31-b1c1-433d-9ab5-c7d45105bfa7" />
+<img width="636" height="482" alt="key_wordcloud" src="https://github.com/user-attachments/assets/3dfc2c31-b1c1-433d-9ab5-c7d45105bfa7" />
 
 - Word Cloud (From Full Text):
-  <img width="738" height="559" alt="ml_wordcloud" src="https://github.com/user-attachments/assets/fc0f37a5-0e60-4e0f-baea-55d24059cb97" />
+<img width="738" height="559" alt="ml_wordcloud" src="https://github.com/user-attachments/assets/fc0f37a5-0e60-4e0f-baea-55d24059cb97" />
